@@ -57,7 +57,7 @@
             "titulo": "Descarga automática de Google Photos por año",
             "descripcion": "Descarga automáticamente fotos de la API de Google Photos organizadas por año y mes.",
             "repo": "https://github.com/grimaldi2706/GooglePhotos-Downloader",
-            "imagen": "./images/api_google_fotos.png",
+            "imagen": "../images/api_google_fotos.png",
             "tecnologias": ["Python", "html", "CSS"]
         }
     ]
