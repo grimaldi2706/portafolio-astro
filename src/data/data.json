@@ -36,14 +36,14 @@
             "titulo": "API Flask con MySQL",
             "descripcion": "API REST para gestión de usuarios con rutas CRUD, validación y conexión a MySQL.",
             "repo": "https://github.com/grimaldi2706/API_Flask/",
-            "imagen": "/images/api_flask.png",
+            "imagen": "portafolio-astro/images/api_flask.png",
             "tecnologias": ["Python", "Flask", "MySQL"]
         },
         {
             "titulo": "PokeCard",
             "descripcion": "Consumo de la API pública de PokeAPI . Genera tarjetas de Pokémon con la imagen.",
             "repo": "https://github.com/grimaldi2706/PokeCards",
-            "imagen": "/images/poke-card.png",
+            "imagen": "portafolio-astro/images/poke-card.png",
             "tecnologias": ["Angular", "html", "CSS"]
         },
         {
@@ -57,7 +57,7 @@
             "titulo": "Descarga automática de Google Photos por año",
             "descripcion": "Descarga automáticamente fotos de la API de Google Photos organizadas por año y mes.",
             "repo": "https://github.com/grimaldi2706/GooglePhotos-Downloader",
-            "imagen": "/images/api_google_fotos.png",
+            "imagen": "portafolio-astro/images/api_google_fotos.png",
             "tecnologias": ["Python", "html", "CSS"]
         }
     ]
