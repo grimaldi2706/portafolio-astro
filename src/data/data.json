@@ -1,0 +1,65 @@
+{
+    "dataPersonal" : {
+        "email": "grimaldi@gmail.com",
+        "name": "Grimaldi Cuaical Gomez",
+        "image": "https://avatars.githubusercontent.com/u/48415689?v=4",
+        "github": "https://github.com/grimaldi2706",
+        "linkedin": "https://co.linkedin.com/in/grimaldicg"
+    },
+    "dataProfessional": {
+        "profession": "Ingeniero de sistemas",
+        "location": "Bogotá, Colombia",
+        "title_complete": "Full Stack Developer",
+        "title1": "Full Stack ",
+        "title2": "Developer",
+        "summary": "Apasionado por crear soluciones tecnológicas innovadoras, con experiencia en desarrollo front-end y back-end. Enfocado en construir interfaces eficientes, optimizar el rendimiento de las aplicaciones y ofrecer experiencias digitales de alto impacto.",
+        "descripcion": "Con más de 3 de experiencia en desarrollo y bases de datos",
+        "skills": [
+            "JavaScript",
+            "PHP",
+            "Laravel",
+            "Express",
+            "MongoDB",
+            "HTML",
+            "CSS",
+            "Git",
+            "Agile Methodologies"
+        ],
+        "experiencia": [
+            "Levantamiento y análisis de requerimientos para soluciones tecnológicas",
+            "Desarrollo con php, javascript y python con frameworks modernos como Flask, Astro y Laravel",
+            "Gestión y modelado de bases de datos SQL, MySQL, MongoDB y Oracle"
+        ]
+    },
+    "dataProyectos":[
+        {
+            "titulo": "API Flask con MySQL",
+            "descripcion": "API REST para gestión de usuarios con rutas CRUD, validación y conexión a MySQL.",
+            "repo": "https://github.com/grimaldi2706/API_Flask/",
+            "imagen": "/images/api_flask.png",
+            "tecnologias": ["Python", "Flask", "MySQL"]
+        },
+        {
+            "titulo": "PokeCard",
+            "descripcion": "Consumo de la API pública de PokeAPI . Genera tarjetas de Pokémon con la imagen.",
+            "repo": "https://github.com/grimaldi2706/PokeCards",
+            "imagen": "/images/poke-card.png",
+            "tecnologias": ["Angular", "html", "CSS"]
+        },
+        {
+            "titulo": "Asterisk con Docker",
+            "descripcion": "Configuración de Asterisk para VoIP con Docker, incluyendo llamadas.",
+            "repo": "https://github.com/grimaldi2706/Asterisk-docker",
+            "imagen": "https://raw.githubusercontent.com/grimaldi2706/Asterisk-docker/refs/heads/main/result.png",
+            "tecnologias": ["Docker", "Asterisk", "Bash"]
+        },
+        {
+            "titulo": "Descarga automática de Google Photos por año",
+            "descripcion": "Descarga automáticamente fotos de la API de Google Photos organizadas por año y mes.",
+            "repo": "https://github.com/grimaldi2706/GooglePhotos-Downloader",
+            "imagen": "/images/api_google_fotos.png",
+            "tecnologias": ["Python", "html", "CSS"]
+        }
+    ]
+}
+

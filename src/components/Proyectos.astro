@@ -1,0 +1,45 @@
+---
+// Importas los datos
+import data from "../data/data.json";
+
+let dataProfessional = data.dataProfessional;
+let dataProyectos = data.dataProyectos;
+---
+
+<section id="proyectos" class="max-w-6xl mx-auto px-8 mt-32">
+  <h3 class="text-3xl font-semibold mb-12 text-center text-white">Proyectos Destacados</h3>
+
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
+    {dataProyectos.map(proyecto => (
+      <article class="group bg-[#111111] rounded-2xl overflow-hidden hover:-translate-y-2 transition-transform shadow-lg">
+        <div class="relative h-52 overflow-hidden">
+          <img 
+            src={proyecto.imagen} 
+            alt={proyecto.titulo} 
+            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+        </div>
+        <div class="p-6">
+          <h4 class="font-semibold text-lg mb-2 text-[#00b4ff]">
+            {proyecto.titulo}
+          </h4>
+          <p class="text-neutral-400 text-sm">
+            {proyecto.descripcion}
+          </p>
+        </div>
+        <div class="p-4">
+          <a 
+            href={proyecto.repo}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-[#00b4ff] text-black font-medium px-2 py-1 rounded-md text-sm hover:bg-[#009fe0] transition-colors"
+          >
+            Ver repositorio
+          </a>
+        </div>
+      </article>
+    ))}
+  </div>
+</section>
+
