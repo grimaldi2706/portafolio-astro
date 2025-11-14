@@ -10,12 +10,13 @@ const { title = "Portafolio — Nombre Apellido", description = "Portafolio prof
     <title>{title}</title>
     <meta name="description" content={description} />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/images/favicon.ico" />
   </head>
 
   <body class="bg-[#0a0a0a] text-white antialiased overflow-x-hidden font-[Poppins]">
     <div class="fixed inset-0 bg-gradient-to-br from-black via-neutral-900 to-[#141414] -z-10"></div>
 
-    <slot />  <!-- Aquí se insertará el contenido de cada página -->
+    <slot /> 
 
   </body>
 </html>
