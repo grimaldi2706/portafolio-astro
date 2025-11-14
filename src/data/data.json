@@ -1,6 +1,6 @@
 {
     "dataPersonal" : {
-        "email": "grimaldi@gmail.com",
+        "email": "grimaldi.cgomez@gmail.com",
         "name": "Grimaldi Cuaical Gomez",
         "image": "https://avatars.githubusercontent.com/u/48415689?v=4",
         "github": "https://github.com/grimaldi2706",
@@ -26,9 +26,11 @@
             "Agile Methodologies"
         ],
         "experiencia": [
-            "Levantamiento y análisis de requerimientos para soluciones tecnológicas",
-            "Desarrollo con php, javascript y python con frameworks modernos como Flask, Astro y Laravel",
-            "Gestión y modelado de bases de datos SQL, MySQL, MongoDB y Oracle"
+            "Desarrollo web con PHP, JavaScript y Python utilizando frameworks modernos como Flask, Astro y Laravel",
+            "Diseño, modelado, optimización y administración de bases de datos SQL y NoSQL (MySQL, PostgreSQL, MongoDB y Oracle)",
+            "Integración de APIs REST y creación de servicios backend escalables",
+            "Automatización de procesos con scripts en Python y shell scripting",
+            "Contenerización de aplicaciones con Docker"
         ]
     },
     "dataProyectos":[
@@ -38,13 +40,6 @@
             "repo": "https://github.com/grimaldi2706/API_Flask/",
             "imagen": "./images/api_flask.png",
             "tecnologias": ["Python", "Flask", "MySQL"]
-        },
-        {
-            "titulo": "PokeCard",
-            "descripcion": "Consumo de la API pública de PokeAPI . Genera tarjetas de Pokémon con la imagen.",
-            "repo": "https://github.com/grimaldi2706/PokeCards",
-            "imagen": "./images/poke-card.png",
-            "tecnologias": ["Angular", "html", "CSS"]
         },
         {
             "titulo": "Asterisk con Docker",
@@ -59,6 +54,20 @@
             "repo": "https://github.com/grimaldi2706/GooglePhotos-Downloader",
             "imagen": "./images/api_google_fotos.png",
             "tecnologias": ["Python", "html", "CSS"]
+        },
+        {
+            "titulo": "Scraper de Tweets con Flask y Snscrape",
+            "descripcion": "Extracción y consulta de tweets públicos con Snscrape para análisis de sentimiento y exploración de contenido.",
+            "repo": "https://github.com/grimaldi2706/TwitterScraper",
+            "imagen": "./images/TwitterScraper.png",
+            "tecnologias": ["Python", "html", "CSS"]
+        },
+        {
+            "titulo": "PokeCard",
+            "descripcion": "Consumo de la API pública de PokeAPI . Genera tarjetas de Pokémon con la imagen.",
+            "repo": "https://github.com/grimaldi2706/PokeCards",
+            "imagen": "./images/poke-card.png",
+            "tecnologias": ["Angular", "html", "CSS"]
         }
     ]
 }
